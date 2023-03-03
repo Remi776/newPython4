@@ -13,4 +13,4 @@ for i in range(len(list_1)):
         new_list.append(list_1[i] + list_1[i - 1] + list_1[0])
 
 print(list_1)
-print(max(new_list))
+print(f'{new_list}\tmax= {max(new_list)}')
